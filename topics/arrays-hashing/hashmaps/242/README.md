@@ -137,7 +137,6 @@ where:
 
 - `unordered_map`
 - Hashing
-- String Traversal
 
 ---
 
