@@ -29,3 +29,190 @@
 | First Missing Positive | Hard | [View →](../topics/Arrays%20%26%20Hashing/arrays/41/41.cpp) |
 
 </details>
+
+<details>
+<summary>👉 Two Pointers</summary>
+
+<br>
+
+| Problem | Difficulty | Solution |
+|---|:---:|:---:|
+| ... | ... | [View →](...) |
+
+</details>
+
+<details>
+<summary>🪟 Sliding Window</summary>
+
+<br>
+
+| Problem | Difficulty | Solution |
+|---|:---:|:---:|
+| ... | ... | [View →](...) |
+
+</details>
+
+<details>
+<summary>📚 Stack</summary>
+
+<br>
+
+| Problem | Difficulty | Solution |
+|---|:---:|:---:|
+| ... | ... | [View →](...) |
+
+</details>
+
+<details>
+<summary>🔎 Binary Search</summary>
+
+<br>
+
+| Problem | Difficulty | Solution |
+|---|:---:|:---:|
+| ... | ... | [View →](...) |
+
+</details>
+
+<details>
+<summary>🔗 Linked List</summary>
+
+<br>
+
+| Problem | Difficulty | Solution |
+|---|:---:|:---:|
+| ... | ... | [View →](...) |
+
+</details>
+
+<details>
+<summary>🌳 Trees</summary>
+
+<br>
+
+| Problem | Difficulty | Solution |
+|---|:---:|:---:|
+| ... | ... | [View →](...) |
+
+</details>
+
+<details>
+<summary>🏆 Heap / Priority Queue</summary>
+
+<br>
+
+| Problem | Difficulty | Solution |
+|---|:---:|:---:|
+| ... | ... | [View →](...) |
+
+</details>
+
+<details>
+<summary>🔙 Backtracking</summary>
+
+<br>
+
+| Problem | Difficulty | Solution |
+|---|:---:|:---:|
+| ... | ... | [View →](...) |
+
+</details>
+
+<details>
+<summary>🔤 Tries</summary>
+
+<br>
+
+| Problem | Difficulty | Solution |
+|---|:---:|:---:|
+| ... | ... | [View →](...) |
+
+</details>
+
+<details>
+<summary>🕸️ Graphs</summary>
+
+<br>
+
+| Problem | Difficulty | Solution |
+|---|:---:|:---:|
+| ... | ... | [View →](...) |
+
+</details>
+
+<details>
+<summary>🕸️ Advanced Graphs</summary>
+
+<br>
+
+| Problem | Difficulty | Solution |
+|---|:---:|:---:|
+| ... | ... | [View →](...) |
+
+</details>
+
+<details>
+<summary>1️⃣ 1-D Dynamic Programming</summary>
+
+<br>
+
+| Problem | Difficulty | Solution |
+|---|:---:|:---:|
+| ... | ... | [View →](...) |
+
+</details>
+
+<details>
+<summary>2️⃣ 2-D Dynamic Programming</summary>
+
+<br>
+
+| Problem | Difficulty | Solution |
+|---|:---:|:---:|
+| ... | ... | [View →](...) |
+
+</details>
+
+<details>
+<summary>🟢 Greedy</summary>
+
+<br>
+
+| Problem | Difficulty | Solution |
+|---|:---:|:---:|
+| ... | ... | [View →](...) |
+
+</details>
+
+<details>
+<summary>📊 Intervals</summary>
+
+<br>
+
+| Problem | Difficulty | Solution |
+|---|:---:|:---:|
+| ... | ... | [View →](...) |
+
+</details>
+
+<details>
+<summary>📐 Math & Geometry</summary>
+
+<br>
+
+| Problem | Difficulty | Solution |
+|---|:---:|:---:|
+| ... | ... | [View →](...) |
+
+</details>
+
+<details>
+<summary>🔢 Bit Manipulation</summary>
+
+<br>
+
+| Problem | Difficulty | Solution |
+|---|:---:|:---:|
+| ... | ... | [View →](...) |
+
+</details>
