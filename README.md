@@ -6,17 +6,17 @@ A collection of my solutions to Data Structures & Algorithms problems, primarily
 
 | Topic               | Solutions                           |
 | ------------------- | ----------------------------------- |
+| 🧮 Arrays & Hashing | [View →](./topics/arrays-hashing)   |
 | 🔙 Backtracking     | [View →](./topics/Backtracking)     |
 | 🔎 Binary Search    | [View →](./topics/Binary%20Search)  |
 | 🔢 Enumeration      | [View →](./topics/Enumeration)      |
 | 🕸️ Graphs          | [View →](./topics/Graphs)           |
+| 🟢 Greedy           | [View →](./topics/greedy)           |
 | ➗ Maths             | [View →](./topics/Maths)            |
+| 🪟 Sliding Window   | [View →](./topics/sliding%20window) |
 | 📚 Stack            | [View →](./topics/Stack)            |
 | 🔤 String           | [View →](./topics/String)           |
 | 🌳 Trees            | [View →](./topics/Trees)            |
-| 🧮 Arrays & Hashing | [View →](./topics/arrays-hashing)   |
-| 🟢 Greedy           | [View →](./topics/greedy)           |
-| 🪟 Sliding Window   | [View →](./topics/sliding%20window) |
 | 👉 Two Pointers     | [View →](./topics/two-pointers)     |
 
 ## 🎯 About
