@@ -27,9 +27,11 @@ Each topic contains my solutions along with problem-specific README files where 
 
 ---
 
-<p align="center">
-  <a href="./neetcode-250">
-    🚀 <strong>NeetCode 250</strong><br>
-    <sub>View my progress & solutions →</sub>
-  </a>
-</p>
+## 🗺️ Roadmaps Practiced
+
+I have practiced the following DSA roadmaps to strengthen my problem-solving skills and build a strong foundation in Data Structures & Algorithms.
+
+| Roadmap                                       | 🟢 Easy | 🟡 Medium | 🔴 Hard |
+| --------------------------------------------- | :-----: | :-------: | :-----: |
+| [**Striver's A2Z DSA Sheet**](./strivers-a2z) |    0    |     0     |    0    |
+| [**NeetCode 250**](./neetcode-250)            |    0    |     0     |    0    |
