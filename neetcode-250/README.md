@@ -1,5 +1,5 @@
-## 🧮 Arrays & Hashing
-
+<details>
+<summary>🧮 Arrays & Hashing</summary>
 | Problem                            | Difficulty |                   Solution                  |
 | ---------------------------------- | :--------: | :-----------------------------------------: |
 | Concatenation of Array             |    Easy    | [View →](../topics/arrays-hashing/1929.cpp) |
@@ -24,3 +24,4 @@
 | Majority Element II                |   Medium   |  [View →](../topics/arrays-hashing/229.cpp) |
 | Subarray Sum Equals K              |   Medium   |  [View →](../topics/arrays-hashing/560.cpp) |
 | First Missing Positive             |    Hard    |  [View →](../topics/arrays-hashing/41.cpp)  |
+</details>
