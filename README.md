@@ -25,8 +25,11 @@ This repository documents my journey of solving DSA problems, improving problem-
 
 Each topic contains my solutions along with problem-specific README files where applicable.
 
-🚀 NeetCode 250
+---
 
-My progress through the NeetCode 250 roadmap.
-
-<[🔗 View NeetCode 250 →](./neetcode-250)
+<p align="center">
+  <a href="./neetcode-250">
+    🚀 <strong>NeetCode 250</strong><br>
+    <sub>View my progress & solutions →</sub>
+  </a>
+</p>
