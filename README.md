@@ -34,4 +34,4 @@ I have practiced the following DSA roadmaps to strengthen my problem-solving ski
 | Roadmap                                       | 🟢 Easy | 🟡 Medium | 🔴 Hard |
 | --------------------------------------------- | :-----: | :-------: | :-----: |
 | [**Striver's A2Z DSA Sheet**](./strivers-a2z) |    3    |     1     |    0    |
-| [**NeetCode 250**](./neetcode-250)            |    0    |     0     |    0    |
+| [**NeetCode 250**](./neetcode-250)            |    9    |     12     |    1    |
