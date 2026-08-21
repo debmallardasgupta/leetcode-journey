@@ -1,0 +1,197 @@
+# 🔄 Permutations — Backtracking
+
+## 📌 Problem
+
+Given an array `nums` of distinct integers, return all possible permutations.
+
+### Example
+
+**Input:**
+
+```text
+[1, 2, 3]
+```
+
+**Output:**
+
+```text
+[
+  [1,2,3],
+  [1,3,2],
+  [2,1,3],
+  [2,3,1],
+  [3,1,2],
+  [3,2,1]
+]
+```
+
+---
+
+## 💡 Approach
+
+This problem can be solved using **Backtracking**.
+
+We build the permutation one element at a time.
+
+We maintain:
+
+* `ds` → stores the current permutation.
+* `used` → keeps track of which elements have already been selected.
+* `ans` → stores all completed permutations.
+
+At every recursive step:
+
+1. Iterate through all elements.
+2. Skip an element if it has already been used.
+3. Choose the current element.
+4. Mark it as used.
+5. Recursively build the rest of the permutation.
+6. Undo the choice after returning from recursion.
+
+This process is called **backtracking** because we make a choice, explore it, and then revert that choice to explore other possibilities.
+
+---
+
+## 🌳 Recursion Example
+
+For:
+
+```text
+nums = [1, 2, 3]
+```
+
+The recursion tree looks like:
+
+```text
+                    []
+             /       |       \
+           [1]      [2]      [3]
+          /   \     /  \     /  \
+      [1,2] [1,3] [2,1] [2,3] ...
+        |      |     |      |
+    [1,2,3] [1,3,2] [2,1,3] [2,3,1]
+```
+
+Once the current permutation contains all `n` elements, we add it to the answer.
+
+---
+
+## 🧠 Key Backtracking
+
+```cpp
+used[i] = true;
+ds.push_back(nums[i]);
+
+solve(nums, ds, ans, used);
+
+ds.pop_back();
+used[i] = false;
+```
+
+The last two lines are important.
+
+They **undo our previous choice**, allowing the same element to be used in another position in a different permutation.
+
+---
+
+## 💻 Code
+
+```cpp
+class Solution {
+public:
+    void solve(vector<int>& nums, vector<int>& ds,
+               vector<vector<int>>& ans, vector<bool>& used) {
+
+        if (ds.size() == nums.size()) {
+            ans.push_back(ds);
+            return;
+        }
+
+        for (int i = 0; i < nums.size(); i++) {
+            if (used[i])
+                continue;
+
+            used[i] = true;
+            ds.push_back(nums[i]);
+
+            solve(nums, ds, ans, used);
+
+            ds.pop_back();
+            used[i] = false;
+        }
+    }
+
+    vector<vector<int>> permute(vector<int>& nums) {
+        vector<vector<int>> ans;
+        vector<int> ds;
+        vector<bool> used(nums.size(), false);
+
+        solve(nums, ds, ans, used);
+
+        return ans;
+    }
+};
+```
+
+---
+
+## ⏱️ Complexity
+
+For `n` elements, there are `n!` possible permutations.
+
+Each permutation takes `O(n)` time to construct.
+
+### Time Complexity
+
+```text
+O(n × n!)
+```
+
+### Auxiliary Space
+
+```text
+O(n)
+```
+
+for the recursion stack, `ds`, and `used`.
+
+The output itself requires:
+
+```text
+O(n × n!)
+```
+
+space.
+
+---
+
+## 🔑 Pattern
+
+**Backtracking + Used Array**
+
+This technique is useful for problems involving:
+
+* Permutations
+* Combinations
+* Subsets
+* Arrangements
+* Decision trees
+* Generating all possible configurations
+
+---
+
+## ⚠️ Note
+
+This solution assumes that all elements in `nums` are **distinct**.
+
+If duplicates are allowed, this approach can generate duplicate permutations. For that case, a different technique is required, such as sorting the array and skipping duplicate choices.
+
+---
+
+### 🎯 Takeaway
+
+The core idea of backtracking is:
+
+> **Choose → Explore → Undo**
+
+Once this pattern becomes familiar, many recursive generation problems become much easier to solve.
