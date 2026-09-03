@@ -1,6 +1,6 @@
 # 🧠 My DSA Solutions
 
-A collection of my solutions to Data Structures & Algorithms problems, primarily implemented in **C++**.
+A collection of my solutions to Data Structures & Algorithms problems, primarily implemented in **C++** and **JAVA**.
 
 ## 📚 Topics
 
